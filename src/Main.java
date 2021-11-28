@@ -95,7 +95,7 @@ public class Main {
                 System.out.println("插入学生信息成功！");
             }
             pst.close();
-            con.close();
+            con.close();//断开与数据库的连接
 
         }
         catch (SQLException e){
